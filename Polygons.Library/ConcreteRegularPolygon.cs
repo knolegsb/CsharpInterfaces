@@ -8,14 +8,14 @@ namespace Polygons.Library
 {
     public class ConcreteRegularPolygon
     {
-        //public int NumberOfSides { get; set; }
-        private int _numberOfSides;
+        public int NumberOfSides { get; set; }
+        //private int _numberOfSides;
 
-        public int NumberOfSides
-        {
-            get { return _numberOfSides; }
-            set { _numberOfSides = value; }
-        }
+        //public int NumberOfSides
+        //{
+        //    get { return _numberOfSides; }
+        //    set { _numberOfSides = value; }
+        //}
 
         public int SideLength { get; set; }
 
